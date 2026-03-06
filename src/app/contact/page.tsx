@@ -21,6 +21,7 @@ const contactMethods = [
     href: `tel:${CONTACT_INFO.phone}`,
     description: "Ligue ou envie mensagem",
   },
+  /* TODO: uncomment after confirming info
   {
     icon: Mail,
     title: "E-mail",
@@ -28,6 +29,7 @@ const contactMethods = [
     href: `mailto:${CONTACT_INFO.email}`,
     description: "Resposta em até 24h",
   },
+  */
   {
     icon: Instagram,
     title: "Instagram",
@@ -113,7 +115,7 @@ export default function ContactPage() {
                   ))}
                 </div>
 
-                {/* Address */}
+                {/* TODO: uncomment after confirming info
                 <div className="p-6 rounded-xl bg-background-alt">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0">
@@ -135,7 +137,6 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                {/* Hours */}
                 <div className="p-6 rounded-xl bg-background-alt">
                   <div className="flex items-start gap-4">
                     <div className="w-12 h-12 rounded-full bg-primary-100 flex items-center justify-center flex-shrink-0">
@@ -153,6 +154,7 @@ export default function ContactPage() {
                     </div>
                   </div>
                 </div>
+                */}
               </div>
             </AnimatedSection>
 
@@ -164,7 +166,7 @@ export default function ContactPage() {
         </Container>
       </section>
 
-      {/* Map */}
+      {/* TODO: uncomment after confirming info
       <section className="h-96 bg-gray-100">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113977.89459741368!2d-48.91843454335936!3d-26.303915699999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94de8ae3f7dc4f1f%3A0x51d57f75c52de52f!2sJoinville%2C%20SC!5e0!3m2!1spt-BR!2sbr!4v1709756123456!5m2!1spt-BR!2sbr"
@@ -177,6 +179,7 @@ export default function ContactPage() {
           title="Localização da clínica"
         />
       </section>
+      */}
     </>
   );
 }

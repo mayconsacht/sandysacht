@@ -77,6 +77,7 @@ export default function Footer() {
                     </a>
                   </div>
                 </li>
+                {/* TODO: uncomment after confirming info
                 <li className="flex items-start gap-3">
                   <Mail className="w-5 h-5 text-primary-300 flex-shrink-0 mt-0.5" />
                   <a
@@ -92,10 +93,11 @@ export default function Footer() {
                     {CONTACT_INFO.address.full}
                   </span>
                 </li>
+                */}
               </ul>
             </div>
 
-            {/* Hours */}
+            {/* TODO: uncomment after confirming info
             <div>
               <h4 className="text-white font-semibold mb-4">Horário</h4>
               <ul className="space-y-2 text-sm text-white/70">
@@ -104,6 +106,7 @@ export default function Footer() {
                 <li>{CONTACT_INFO.hours.sunday}</li>
               </ul>
             </div>
+            */}
           </div>
         </div>
 

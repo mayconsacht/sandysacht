@@ -3,7 +3,7 @@ import {
   TrustIndicators,
   ServicesGrid,
   AboutPreview,
-  BeforeAfterGallery,
+  // BeforeAfterGallery, // TODO: uncomment after confirming info
   TestimonialsCarousel,
   CTASection,
 } from "@/components/sections";
@@ -15,7 +15,8 @@ export default function HomePage() {
       <TrustIndicators />
       <ServicesGrid limit={6} />
       <AboutPreview />
-      <BeforeAfterGallery limit={3} />
+      {/* TODO: uncomment after confirming info */}
+      {/* <BeforeAfterGallery limit={3} /> */}
       <TestimonialsCarousel limit={3} />
       <CTASection />
     </>

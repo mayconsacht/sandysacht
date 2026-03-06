@@ -35,7 +35,7 @@ export const NAV_LINKS = [
   { href: "/", label: "Início" },
   { href: "/about", label: "Sobre" },
   { href: "/services", label: "Procedimentos" },
-  { href: "/before-after", label: "Antes & Depois" },
+  // { href: "/before-after", label: "Antes & Depois" }, // TODO: uncomment after confirming info
   { href: "/testimonials", label: "Depoimentos" },
   { href: "/contact", label: "Contato" },
 ] as const;

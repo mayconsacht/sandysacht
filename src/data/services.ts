@@ -92,42 +92,62 @@ export const services: Service[] = [
     image: "https://images.unsplash.com/photo-1552693673-1bf958298935?w=800&h=600&fit=crop",
   },
   {
-    id: "skinbooster",
-    title: "Skinbooster",
+    id: "harmonizacao-gluteo",
+    title: "Harmonização de Glúteo",
     shortDescription:
-      "Hidratação profunda e revitalização da pele com ácido hialurônico injetável.",
+      "Contorno e volume para glúteos mais definidos e harmônicos com o corpo.",
     fullDescription:
-      "O Skinbooster é um tratamento que injeta micropartículas de ácido hialurônico na derme, promovendo hidratação profunda e duradoura. O resultado é uma pele mais luminosa, uniforme e com aspecto saudável, perfeito para quem busca melhorar a qualidade da pele.",
+      "A harmonização de glúteo é um procedimento estético que utiliza bioestimuladores e preenchedores para melhorar o contorno, volume e firmeza da região glútea. O tratamento proporciona resultados naturais, corrigindo assimetrias e realçando as curvas de forma harmônica com o corpo.",
     benefits: [
-      "Hidratação profunda e duradoura",
-      "Melhora textura da pele",
-      "Aumenta luminosidade",
-      "Reduz linhas finas",
-      "Pele mais viçosa",
+      "Aumento de volume e projeção",
+      "Melhora do contorno glúteo",
+      "Correção de assimetrias",
+      "Estímulo de colágeno na região",
+      "Resultados naturais e duradouros",
     ],
     targetAudience:
-      "Perfeito para quem deseja melhorar a qualidade da pele, ideal para peles opacas, desidratadas ou com sinais iniciais de envelhecimento.",
-    duration: "30 a 45 minutos",
-    results: "Resultados visíveis após a primeira sessão, com melhora progressiva.",
-    image: "https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=800&h=600&fit=crop",
+      "Indicado para quem deseja melhorar o contorno e volume dos glúteos de forma não cirúrgica.",
+    duration: "1 a 2 horas",
+    results: "Resultados progressivos ao longo de 2 a 3 meses, com duração de até 2 anos.",
+    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+  },
+  {
+    id: "automodelacao",
+    title: "Automodelação",
+    shortDescription:
+      "Remodelação corporal e facial através de técnicas avançadas de contorno.",
+    fullDescription:
+      "A automodelação é uma técnica inovadora que combina diferentes procedimentos para remodelar e definir contornos corporais e faciais. Utilizamos bioestimuladores, enzimas e outras substâncias para esculpir e harmonizar as formas do corpo de maneira personalizada.",
+    benefits: [
+      "Definição de contornos",
+      "Redução de gordura localizada",
+      "Melhora da flacidez",
+      "Resultados personalizados",
+      "Procedimento minimamente invasivo",
+    ],
+    targetAudience:
+      "Para quem busca remodelar contornos corporais e faciais sem procedimentos cirúrgicos.",
+    duration: "1 a 2 horas",
+    results: "Resultados progressivos com melhora visível a cada sessão.",
+    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
   },
   {
     id: "tratamentos-faciais",
     title: "Tratamentos Faciais",
     shortDescription:
-      "Protocolos personalizados para cuidar da saúde e beleza da sua pele.",
+      "Protocolos personalizados para rejuvenescimento, hidratação e saúde da pele.",
     fullDescription:
-      "Oferecemos uma variedade de tratamentos faciais personalizados, incluindo limpeza de pele profunda, peelings químicos, microagulhamento e protocolos de skincare profissional. Cada tratamento é adaptado às necessidades específicas da sua pele.",
+      "Oferecemos uma variedade de tratamentos faciais personalizados para cuidar da saúde e beleza da sua pele. Nossos protocolos incluem skinbooster para hidratação profunda, peelings químicos, microagulhamento, limpeza de pele e tratamentos de rejuvenescimento. Cada protocolo é adaptado às necessidades específicas da sua pele.",
     benefits: [
-      "Limpeza profunda da pele",
-      "Renovação celular",
+      "Hidratação profunda com skinbooster",
+      "Renovação celular e luminosidade",
       "Controle de oleosidade e acne",
       "Uniformização do tom de pele",
-      "Protocolos personalizados",
+      "Redução de linhas finas",
     ],
     targetAudience:
       "Para todos que desejam manter a saúde e beleza da pele com cuidados profissionais regulares.",
-    duration: "1 a 2 horas",
+    duration: "30 minutos a 2 horas",
     results: "Resultados variam conforme o protocolo, com melhorias visíveis após cada sessão.",
     image: "https://images.unsplash.com/photo-1487412947147-5cebf100ffc2?w=800&h=600&fit=crop",
   },

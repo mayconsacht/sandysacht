@@ -87,28 +87,29 @@ export default function ServicesPage() {
                       </ul>
                     </div>
 
-                    {/* Duration Info */}
-                    <div className="mt-6 inline-flex items-center gap-3 p-3 rounded-lg bg-background-alt">
-                      <Clock className="w-5 h-5 text-primary-500" />
-                      <div>
-                        <span className="text-xs text-foreground-muted block">
-                          Duração
-                        </span>
-                        <span className="text-sm font-medium text-foreground">
-                          {service.duration}
-                        </span>
+                    {/* Duration Info + CTA */}
+                    <div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                      <div className="inline-flex items-center gap-3 p-3 rounded-lg bg-background-alt">
+                        <Clock className="w-5 h-5 text-primary-500" />
+                        <div>
+                          <span className="text-xs text-foreground-muted block">
+                            Duração
+                          </span>
+                          <span className="text-sm font-medium text-foreground">
+                            {service.duration}
+                          </span>
+                        </div>
                       </div>
-                    </div>
 
-                    <Button
-                      as="a"
-                      href={`https://wa.me/${CONTACT_INFO.whatsappNumber}?text=Olá! Gostaria de agendar uma consulta para ${service.title}.`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-6"
-                    >
-                      Agendar Consulta
-                    </Button>
+                      <Button
+                        as="a"
+                        href={`https://wa.me/${CONTACT_INFO.whatsappNumber}?text=Olá! Gostaria de agendar uma consulta para ${service.title}.`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Agendar Consulta
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </AnimatedSection>

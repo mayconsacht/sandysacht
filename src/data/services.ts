@@ -112,12 +112,12 @@ export const services: Service[] = [
     image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
   },
   {
-    id: "automodelacao",
-    title: "Automodelação",
+    id: "otomodelacao",
+    title: "Otomodelação",
     shortDescription:
       "Remodelação corporal e facial através de técnicas avançadas de contorno.",
     fullDescription:
-      "A automodelação é uma técnica inovadora que combina diferentes procedimentos para remodelar e definir contornos corporais e faciais. Utilizamos bioestimuladores, enzimas e outras substâncias para esculpir e harmonizar as formas do corpo de maneira personalizada.",
+      "A otomodelação é uma técnica inovadora que combina diferentes procedimentos para remodelar e definir contornos corporais e faciais. Utilizamos bioestimuladores, enzimas e outras substâncias para esculpir e harmonizar as formas do corpo de maneira personalizada.",
     benefits: [
       "Definição de contornos",
       "Redução de gordura localizada",

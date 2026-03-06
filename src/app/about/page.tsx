@@ -53,9 +53,9 @@ export default function AboutPage() {
               <div className="relative">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden">
                   <img
-                    src="https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=800&h=1000&fit=crop"
+                    src="/sandy-sacht.jpg"
                     alt="Sandy Sacht - Especialista em Estética Facial"
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                   />
                 </div>
                 {/* Decorative elements */}

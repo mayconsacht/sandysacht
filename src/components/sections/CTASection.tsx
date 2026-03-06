@@ -17,7 +17,7 @@ export default function CTASection() {
             </span>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
               Pronta para Realçar Sua{" "}
-              <span className="text-primary-300">Beleza Natural</span>?
+              <span className="text-primary-300 whitespace-nowrap">Beleza Natural</span>?
             </h2>
             <p className="mt-6 text-lg text-white/70 leading-relaxed">
               Agende uma consulta personalizada e descubra os melhores tratamentos

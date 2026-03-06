@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Clock, Target, Sparkles, CheckCircle } from "lucide-react";
+import { Clock, CheckCircle } from "lucide-react";
 import Container from "@/components/layout/Container";
 import SectionHeading from "@/components/ui/SectionHeading";
 import Button from "@/components/ui/Button";
@@ -87,49 +87,18 @@ export default function ServicesPage() {
                       </ul>
                     </div>
 
-                    {/* Info Cards */}
-                    <div className="mt-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
-                      <div className="flex items-center gap-3 p-3 rounded-lg bg-background-alt">
-                        <Clock className="w-5 h-5 text-primary-500" />
-                        <div>
-                          <span className="text-xs text-foreground-muted block">
-                            Duração
-                          </span>
-                          <span className="text-sm font-medium text-foreground">
-                            {service.duration}
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-3 p-3 rounded-lg bg-background-alt">
-                        <Target className="w-5 h-5 text-primary-500" />
-                        <div>
-                          <span className="text-xs text-foreground-muted block">
-                            Indicado para
-                          </span>
-                          <span className="text-sm font-medium text-foreground line-clamp-1">
-                            Ver descrição
-                          </span>
-                        </div>
-                      </div>
-                      <div className="flex items-center gap-3 p-3 rounded-lg bg-background-alt">
-                        <Sparkles className="w-5 h-5 text-primary-500" />
-                        <div>
-                          <span className="text-xs text-foreground-muted block">
-                            Resultados
-                          </span>
-                          <span className="text-sm font-medium text-foreground line-clamp-1">
-                            Ver descrição
-                          </span>
-                        </div>
+                    {/* Duration Info */}
+                    <div className="mt-6 inline-flex items-center gap-3 p-3 rounded-lg bg-background-alt">
+                      <Clock className="w-5 h-5 text-primary-500" />
+                      <div>
+                        <span className="text-xs text-foreground-muted block">
+                          Duração
+                        </span>
+                        <span className="text-sm font-medium text-foreground">
+                          {service.duration}
+                        </span>
                       </div>
                     </div>
-
-                    <p className="mt-4 text-sm text-foreground-muted">
-                      <strong>Indicação:</strong> {service.targetAudience}
-                    </p>
-                    <p className="mt-2 text-sm text-foreground-muted">
-                      <strong>Resultados:</strong> {service.results}
-                    </p>
 
                     <Button
                       as="a"

@@ -128,7 +128,7 @@ export const services: Service[] = [
     ],
     targetAudience:
       "Indicado para pessoas que desejam corrigir orelhas proeminentes, melhorar a harmonia facial e obter resultados estéticos rápidos e naturais sem cirurgia.",
-    duration: "30 a 60 minutos",
+    duration: "1 a 3 horas",
     results: "Resultados imediatos com recuperação rápida.",
     image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
   },

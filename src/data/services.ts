@@ -117,7 +117,7 @@ export const services: Service[] = [
     shortDescription:
       "Correção estética das orelhas sem cirurgia, com resultados naturais e discretos.",
     fullDescription:
-      "A otomodelação é um procedimento estético minimamente invasivo que corrige o formato e a projeção das orelhas, proporcionando um resultado mais harmônico e natural para o rosto — sem necessidade de cirurgia. Utilizando técnicas modernas e seguras, é possível reposicionar as orelhas de forma discreta e eficiente, melhorando a estética facial e aumentando a confiança. O procedimento é rápido, realizado em consultório e com recuperação imediata.",
+      "A otomodelação é um procedimento estético minimamente invasivo que corrige o formato e a projeção das orelhas, proporcionando um resultado mais harmônico e natural para o rosto, sem necessidade de cirurgia. Utilizando técnicas modernas e seguras, é possível reposicionar as orelhas de forma discreta e eficiente, melhorando a estética facial e aumentando a confiança. O procedimento é rápido, realizado em consultório e com recuperação imediata.",
     benefits: [
       "Correção das orelhas de abano",
       "Procedimento minimamente invasivo",

@@ -115,21 +115,22 @@ export const services: Service[] = [
     id: "otomodelacao",
     title: "Otomodelação",
     shortDescription:
-      "Remodelação corporal e facial através de técnicas avançadas de contorno.",
+      "Correção estética das orelhas sem cirurgia, com resultados naturais e discretos.",
     fullDescription:
-      "A otomodelação é uma técnica inovadora que combina diferentes procedimentos para remodelar e definir contornos corporais e faciais. Utilizamos bioestimuladores, enzimas e outras substâncias para esculpir e harmonizar as formas do corpo de maneira personalizada.",
+      "A otomodelação é um procedimento estético minimamente invasivo que corrige o formato e a projeção das orelhas, proporcionando um resultado mais harmônico e natural para o rosto — sem necessidade de cirurgia. Utilizando técnicas modernas e seguras, é possível reposicionar as orelhas de forma discreta e eficiente, melhorando a estética facial e aumentando a confiança. O procedimento é rápido, realizado em consultório e com recuperação imediata.",
     benefits: [
-      "Definição de contornos",
-      "Redução de gordura localizada",
-      "Melhora da flacidez",
-      "Resultados personalizados",
+      "Correção das orelhas de abano",
       "Procedimento minimamente invasivo",
+      "Resultados naturais e discretos",
+      "Recuperação rápida",
+      "Realizado sem cirurgia",
+      "Aumento da autoestima e confiança",
     ],
     targetAudience:
-      "Para quem busca remodelar contornos corporais e faciais sem procedimentos cirúrgicos.",
-    duration: "1 a 2 horas",
-    results: "Resultados progressivos com melhora visível a cada sessão.",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800&h=600&fit=crop",
+      "Indicado para pessoas que desejam corrigir orelhas proeminentes, melhorar a harmonia facial e obter resultados estéticos rápidos e naturais sem cirurgia.",
+    duration: "30 a 60 minutos",
+    results: "Resultados imediatos com recuperação rápida.",
+    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
   },
   {
     id: "tratamentos-faciais",

@@ -158,10 +158,11 @@ export default function ContactPage() {
               </div>
             </AnimatedSection>
 
-            {/* Contact Form */}
+            {/* TODO: uncomment after confirming info
             <AnimatedSection direction="right">
               <ContactForm />
             </AnimatedSection>
+            */}
           </div>
         </Container>
       </section>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { X } from "lucide-react";
@@ -16,6 +16,7 @@ interface MobileMenuProps {
 
 export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   const pathname = usePathname();
+  const prevPathname = useRef(pathname);
 
   useEffect(() => {
     if (isOpen) {
@@ -30,7 +31,10 @@ export default function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
   }, [isOpen]);
 
   useEffect(() => {
-    onClose();
+    if (prevPathname.current !== pathname) {
+      onClose();
+      prevPathname.current = pathname;
+    }
   }, [pathname, onClose]);
 
   return (

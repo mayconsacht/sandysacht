@@ -29,7 +29,7 @@ export const services: Service[] = [
       "Indicado para quem deseja prevenir ou tratar rugas de expressão, proporcionando uma aparência mais descansada e jovem.",
     duration: "30 a 45 minutos",
     results: "Resultados aparecem gradualmente entre 3 a 14 dias após a aplicação.",
-    image: "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=600&fit=crop",
+    image: "/services/botox.jpg",
   },
   {
     id: "harmonizacao-facial",
@@ -49,7 +49,7 @@ export const services: Service[] = [
       "Para quem busca um rosto mais equilibrado e harmônico, valorizando seus traços únicos.",
     duration: "1 a 2 horas",
     results: "Resultados imediatos com melhora progressiva ao longo das semanas.",
-    image: "https://images.unsplash.com/photo-1616394584738-fc6e612e71b9?w=800&h=600&fit=crop",
+    image: "/services/harmonizacao-facial.jpg",
   },
   {
     id: "preenchimento-labial",
@@ -69,7 +69,7 @@ export const services: Service[] = [
       "Indicado para quem deseja lábios mais volumosos ou definidos, mantendo a naturalidade.",
     duration: "30 a 45 minutos",
     results: "Resultado imediato com duração de 8 a 12 meses.",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
+    image: "/services/preenchimento-labial.jpg",
   },
   {
     id: "bioestimuladores",
@@ -109,7 +109,7 @@ export const services: Service[] = [
       "Indicado para quem deseja melhorar o contorno e volume dos glúteos de forma não cirúrgica.",
     duration: "1 a 2 horas",
     results: "Resultados progressivos ao longo de 2 a 3 meses, com duração de até 2 anos.",
-    image: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop",
+    image: "/services/harmonizacao-gluteo.webp",
   },
   {
     id: "otomodelacao",
@@ -130,7 +130,7 @@ export const services: Service[] = [
       "Indicado para pessoas que desejam corrigir orelhas proeminentes, melhorar a harmonia facial e obter resultados estéticos rápidos e naturais sem cirurgia.",
     duration: "1 a 3 horas",
     results: "Resultados imediatos com recuperação rápida.",
-    image: "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?w=800&h=600&fit=crop",
+    image: "/services/otomodelacao.jpg",
   },
   {
     id: "tratamentos-faciais",
